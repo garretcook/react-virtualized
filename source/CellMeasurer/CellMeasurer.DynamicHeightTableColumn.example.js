@@ -70,7 +70,6 @@ export default class DynamicHeightTableColumn extends React.PureComponent {
       <CellMeasurer
         cache={this._cache}
         columnIndex={0}
-        key={dataKey}
         parent={parent}
         rowIndex={rowIndex}>
         <div
